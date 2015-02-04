@@ -1,6 +1,6 @@
 """
-export AWS_ACCESS_KEY_ID=AKIAJK5U5VP626IIRY7A
-export AWS_SECRET_ACCESS_KEY=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
+export AWS_ACCESS_KEY_ID=KEY_ID_GOES_HERE
+export AWS_SECRET_ACCESS_KEY=KEY_GOES_HERE
 """
 
 from dynamodb_mapper.model import DynamoDBModel
