@@ -1,0 +1,13 @@
+161a162,169
+> def float_if_float(float_string):
+>     try:
+>         float_val = float(float_string)
+>         return float_val
+>     except ValueError:
+>         return float_string
+> 
+> 
+176c184
+<             return {'lat': float(input_value['lat']), 'lng': float(input_value['lng'])}
+---
+>             return {'lat': float_if_float(input_value["lat"]), 'lng': float_if_float(input_value["lng"])}
